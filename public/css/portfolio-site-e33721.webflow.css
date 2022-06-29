@@ -1,3 +1,22 @@
+#position-title{
+  color: #00c49a;
+
+}
+
+#position-cursor{
+  color: #2d2d2d;
+  font-weight: bold;
+  padding-left: 2px;
+}
+
+.g-recaptcha {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 303px;
+}
+
+
 h1 {
   margin-top: 20px;
   margin-bottom: 10px;
@@ -515,6 +534,14 @@ a {
   max-width: 50%;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
+}
+
+.button.thankyou {
+  width: 50%;
+  max-width: 50%;
+  margin-top: 35px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .h2 {
@@ -1298,6 +1325,10 @@ a {
   text-align: center;
 }
 
+.heading-4.formheading.thankyou {
+  font-size: 7em;
+}
+
 .heading-5 {
   margin-top: 50px;
   clear: none;
@@ -1325,7 +1356,7 @@ a {
 
 .white-text {
   color: #fcfcfc;
-  text-align: left;
+  text-align: center;
 }
 
 .white-text.portfoliobio {
@@ -1660,8 +1691,6 @@ a {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
-    margin-bottom: 0;
-    padding-bottom: 50px;
   }
 
   .feature-wrap.icons {
@@ -1826,8 +1855,6 @@ a {
   .feature-wrap {
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 0;
-    padding-bottom: 50px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
